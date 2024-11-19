@@ -26,9 +26,9 @@ def main():
         if key_lst[pg.K_DOWN]:
             y += 1
         if key_lst[pg.K_RIGHT]:
-            x += 1
+            x += 2
         if key_lst[pg.K_LEFT]:
-            x -= 1
+            x -= 2
         else:
             x -= 1 #左
         kk_rct.move_ip(x, y)
