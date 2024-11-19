@@ -9,7 +9,9 @@ def main():
     pg.display.set_caption("はばたけ！こうかとん")
     screen = pg.display.set_mode((800, 600))
     clock  = pg.time.Clock()
-    bg_img = pg.image.load("fig/pg_bg.jpg")
+    bg_img = pg.image.load("fig/pg_bg.jpg") #練習1
+    kk_img = pg.image.load("fig/3.png") #練習2
+    kk_img = pg.transform.flip(kk_img, True, False) #練習2
     tmr = 0
     while True:
         for event in pg.event.get():
